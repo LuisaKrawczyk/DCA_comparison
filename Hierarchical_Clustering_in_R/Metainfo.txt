@@ -1,0 +1,13 @@
+Name of Quantlet: 'hierachical_clustering_in_R'
+
+Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
+
+Description: 'Generating a hierarchical clustering as well as a dendrogram and a plot indicating cluster sizes'
+
+Keywords: 'hierarchical clustering, dendrogram, cluster sizes, visualization, quantlet'
+
+Author: Luisa Krawczyk
+
+Submitted:  April 23 by Luisa Krawczyk
+
+Input: 'numpy matrix with with observations as rows and variables as columns'
