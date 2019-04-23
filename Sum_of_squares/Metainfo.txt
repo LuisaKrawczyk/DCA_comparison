@@ -1,0 +1,13 @@
+Name of Quantlet: 'sum_of_squared_distances_plot_k-means'
+
+Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
+
+Description: 'Plotting the sum of squared distances for each k of a k-means clustering'
+
+Keywords: 'k-means, sum of squares, clustering, bar plot, visualisation'
+
+Author: Luisa Krawczyk
+
+Submitted:  April 23 by Luisa Krawczyk
+
+Input: 'numpy matrix with observations as rows and variables as columns'
