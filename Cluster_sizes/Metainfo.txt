@@ -1,0 +1,13 @@
+Name of Quantlet: 'cluster_sizes'
+
+Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
+
+Description: 'Plotting cluster sizes for k-means'
+
+Keywords: 'k-means, visualization, clustering, plot, quantlet'
+
+Author: Luisa Krawczyk
+
+Submitted:  April 23 by Luisa Krawczyk
+
+Input: 'numpy matrix with with observations as rows and variables as columns'
