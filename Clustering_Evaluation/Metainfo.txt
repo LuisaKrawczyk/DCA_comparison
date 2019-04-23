@@ -1,0 +1,13 @@
+Name of Quantlet: 'Silhouette-Score_and_Calinski-Harabaz-Score'
+
+Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
+
+Description: 'Computing and plotting the Silhouette Score as well as the Calinski Harabaz Score for a k-means and several hierarchical clusterings (different distance measures)'
+
+Keywords: 'hierarchical clustering, clustering evaluation, Silhouette-Score, Calinski-Harabaz-Score, k-means'
+
+Author: Luisa Krawczyk
+
+Submitted:  April 23 by Luisa Krawczyk
+
+Input: 'numpy matrix with with observations as rows and variables as columns'
