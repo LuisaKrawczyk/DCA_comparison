@@ -1,0 +1,13 @@
+Name of Quantlet: 'k-means'
+
+Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
+
+Description: 'A manual k-means algorithm as alternative to the one provided by sklearn package'
+
+Keywords: 'manual, k-means, algorithm, clustering, data mining'
+
+Author: Luisa Krawczyk
+
+Submitted:  April 23 by Luisa Krawczyk
+
+Input: 'numpy matrix with with observations as columns and variables as rows'
