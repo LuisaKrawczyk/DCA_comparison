@@ -26,7 +26,7 @@ for iterations in range(niter_max):
   clustersize = np.zeros(k)
   for i in range(n):
     min_distance = np.linalg.norm(X[:,i].astype(np.float64)-Y[:,0].astype(np.float64))
-    # boucle calculant les distances de i aux centroides
+    # computing the distances of i to each centroid
     for j in range(k):
       squared_distance = np.linalg.norm(X[:,i].astype(np.float64)-Y[:,j].astype(np.float64))
       if squared_distance < min_distance: 
