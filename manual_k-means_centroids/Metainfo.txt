@@ -1,4 +1,4 @@
-Name of Quantlet: 'manual_k-means_centroids'
+Name of Quantlet: 'DCA_finding_highest_centroid_values'
 
 Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
 
