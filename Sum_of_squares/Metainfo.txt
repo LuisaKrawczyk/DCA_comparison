@@ -1,4 +1,4 @@
-Name of Quantlet: 'sum_of_squared_distances_plot_k-means'
+Name of Quantlet: 'DCA_sum_of_squares_for_k-means'
 
 Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
 
