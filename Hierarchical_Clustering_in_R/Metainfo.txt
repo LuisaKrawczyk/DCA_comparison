@@ -1,4 +1,4 @@
-Name of Quantlet: 'hierachical_clustering_in_R'
+Name of Quantlet: 'DCA_Hierachical_Clustering'
 
 Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
 
