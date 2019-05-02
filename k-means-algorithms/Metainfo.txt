@@ -1,4 +1,4 @@
-Name of Quantlet: 'k-means'
+Name of Quantlet: 'DCA_manual_k-means'
 
 Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
 
