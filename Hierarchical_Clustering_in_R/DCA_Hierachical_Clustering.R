@@ -1,6 +1,9 @@
 # This file generates a hierarchical clustering as well as a dendrogram and a
 # plot indicating cluster sizes
 
+# Please change the working directory to your path:
+# os.chdir("/Users/Luisa/Desktop/Clustering/quantlet_data.txt") 
+
 # Importing the data set 
 quantlet <- read.table("C:/Users/Luisa/Desktop/Clustering/quantlet_data.txt", header=T, sep=",")
 X <- quantlet[1:2064,2:1287] # removing the first column which contains the file names 
@@ -19,24 +22,24 @@ pdf("whole_dendrogram.pdf", width = 40, height = 15)
 plot(dend)
 dev.off()
 
-# print only truncated dendrogram :
+# print only truncated dendrogram (h=5 is the height I want to cut it at):
 dend <- as.dendrogram(clusters)
 pdf("dendrogram_truncated", width = 40, height = 15)
 plot(cut(dend, h = 5)$upper)
 dev.off()
 
 # creating 10 clusters
-clusterCut <- cutree(clusters, k=40)
+clusterCut <- cutree(clusters, k=10)
 table(clusterCut)
 
 # Export a plot indicating cluster sizes as PDF 
-pdf("40_clusters_hierarchical_obs.pdf", width = 10, height = 4)
-barplot(table(clusterCut), main="Hierarchical Clustering 40 clusters ", ylab="Number of observations per cluster", xlab="Cluster")
+pdf("10_clusters_hierarchical_obs.pdf", width = 10, height = 4)
+barplot(table(clusterCut), main="Hierarchical Clustering 10 clusters ", ylab="Number of observations per cluster", xlab="Cluster")
 dev.off()
 
 # Computing average linkage clustering
 clusters_average <- hclust(dist(matrix), method = 'average')
 dend_average <- as.dendrogram(clusters_average)
 # plot(cut(dend,h=6)$upper)
-clusterCut_average <- cutree(clusters_average, 40)
+clusterCut_average <- cutree(clusters_average, 10)
 table(clusterCut_average)
