@@ -1,4 +1,4 @@
-Name of Quantlet: 'DCA_comparison_Silhouette-Score_and_Calinski-Harabaz-Score'
+Name of Quantlet: 'DCA_evaluation_Silhouette-Score_and_Calinski-Harabaz-Score'
 
 Published in: 'Bachelor Thesis "Comparing applicability of prevalent Clustering Algorithms for Document Clustering"'
 
